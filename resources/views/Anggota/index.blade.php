@@ -11,7 +11,7 @@
         <div class="float-left my-3">
             <form action="{{ route('anggota.index') }}">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="" name="search" value="{{ request('search')}}" style="width: 856px">
+                   <input type="text" class="form-control" placeholder="" name="search" value="{{ request('search')}}" style="width: 620px">
                     <button class="btn btn-primary" type="submit">Search</button>&emsp;
                     <a class="btn btn-success" href="{{ route('anggota.create') }}"> Input Anggota</a>
                 </div>

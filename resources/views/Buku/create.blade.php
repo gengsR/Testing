@@ -21,29 +21,26 @@
                 @endif
                 <form method="post" action="{{ route('buku.store') }}" id="myForm">
                     @csrf
-                    <!-- <div class="form-group">
-                        <label for="Id_Buku">Id_Buku</label> 
-                        <input type="Id_Buku" name="Id_Buku" class="form-control" id="Id_Buku" aria-describedby="Id_Buku" > 
-                    </div> -->
+                    
                     <div class="form-group">
-                        <label for="Judul">Judul</label> 
-                        <input type="text" name="Judul" class="form-control" id="Judul" aria-describedby="Judul" > 
+                        <label for="judul">Judul</label> 
+                        <input type="text" name="judul" class="form-control" id="judul" aria-describedby="judul" > 
                     </div>
                     <div class="form-group">
-                        <label for="Penerbit">Penerbit</label> 
-                        <input type="Penerbit" name="Penerbit" class="form-control" id="Penerbit" aria-describedby="Penerbit" > 
+                        <label for="penerbit">Penerbit</label> 
+                        <input type="penerbit" name="penerbit" class="form-control" id="penerbit" aria-describedby="penerbit" > 
                     </div>
                     <div class="form-group">
-                        <label for="Pengarang">Pengarang</label> 
-                        <input type="Pengarang" name="Pengarang" class="form-control" id="Pengarang" aria-describedby="password" > 
+                        <label for="pengarang">Pengarang</label> 
+                        <input type="pengarang" name="pengarang" class="form-control" id="pengarang" aria-describedby="pengarang" > 
                     </div>
                     <div class="form-group">
-                        <label for="Jenis">Jenis</label> 
-                        <input type="Jenis" name="Jenis" class="form-control" id="Jenis" aria-describedby="Jenis" > 
+                        <label for="jenis">Jenis</label> 
+                        <input type="jenis" name="jenis" class="form-control" id="jenis" aria-describedby="jenis" > 
                     </div>
                     <div class="form-group">
-                        <label for="Stok">Stok</label> 
-                        <input type="Stok" name="Stok" class="form-control" id="Stok" aria-describedby="Stok" > 
+                        <label for="stok">Stok</label> 
+                        <input type="stok" name="stok" class="form-control" id="stok" aria-describedby="stok" > 
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
